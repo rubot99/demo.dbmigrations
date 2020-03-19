@@ -1,0 +1,5 @@
+﻿cd .\fluentmigrator.console\3.2.1\net461\x64\
+
+./migrate --conn "Server=GPS-0193\SQLEXPRESS01;Database=Demo1;Integrated Security=True;" --provider sqlserver2016 --task migrate --output --outputFilename "..\..\..\..\migrated.sql" --assembly "..\..\..\..\demo.fluentmigrator\bin\Debug\demo.fluentmigrator.dll"
+
+./migrate --conn "Server=GPS-0193\SQLEXPRESS01;Database=Demo1;Integrated Security=True;" --provider sqlserver2016 --task rollback:all --preview --output --outputFilename "..\..\..\..\rollback.sql" --assembly "..\..\..\..\demo.fluentmigrator\bin\Debug\demo.fluentmigrator.dll"
