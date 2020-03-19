@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using demo.efcore;
 
 namespace demo.efcore.Migrations
 {
     [DbContext(typeof(DemoContent))]
-    partial class DemoContentModelSnapshot : ModelSnapshot
+    [Migration("20200319091551_employeeAgeField")]
+    partial class employeeAgeField
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

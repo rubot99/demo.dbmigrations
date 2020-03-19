@@ -23,6 +23,8 @@
         [Required]
         public int DepartmentId { get; set; }
 
+        public int Age { get; set; }
+
         public Department Department { get; set; }
 
         public ICollection<EmployeeJobTitle> EmployeeJobTitles { get; set; }

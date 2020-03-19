@@ -4920,11 +4920,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\demo.dbmigrations\\demo.efcore\\demo.efcore.csproj",
+      "projectUniqueName": "C:\\Demos\\demo.dbmigrations\\demo.efcore\\demo.efcore.csproj",
       "projectName": "demo.efcore",
-      "projectPath": "C:\\GitHub\\demo.dbmigrations\\demo.efcore\\demo.efcore.csproj",
+      "projectPath": "C:\\Demos\\demo.dbmigrations\\demo.efcore\\demo.efcore.csproj",
       "packagesPath": "C:\\Users\\reuben.raj\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\demo.dbmigrations\\demo.efcore\\obj\\",
+      "outputPath": "C:\\Demos\\demo.dbmigrations\\demo.efcore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
