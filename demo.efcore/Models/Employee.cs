@@ -18,6 +18,9 @@
         public string Lastname { get; set; }
 
         [Required]
+        public bool Enabled { get; set; }
+
+        [Required]
         public DateTime Created { get; set; } = DateTime.UtcNow;
 
         [Required]
